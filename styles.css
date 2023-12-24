@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    
+}
+
+/*style header*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: black;
+    align-items: center;
+    height: auto;
+}
+h1 {
+    font-family: 'Silkscreen', sans-serif;
+    font-size: 2.5rem;
+    text-shadow: 1px 1px aqua;
+    margin-left: 20px;
+}
+.nabvar, ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    flex-wrap: wrap;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+}
+
+.list, li {
+    margin-right: 15px;
+    font-size: 1.50rem;
+}
+
+.list, a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-shadow: 7px 0px 7px rgb(9, 157, 216);
+    cursor: pointer;
+    font-size: 1.65rem;
+    
+}
+
+/*Styling the main section*/
+
+.aboutme {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/jason-leem-50bzI1F6urA-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+.intro {
+    height: auto;
+    width: 40%;
+    padding: 1%;
+    text-align: justify;
+    font-size: 1.50rem;
+    color: white;
+     background-color: black;
+     font-family: 'Josefin Sans', sans-serif;
+}
+
+.intro, p {
+    margin: 30px 0px;
+}
